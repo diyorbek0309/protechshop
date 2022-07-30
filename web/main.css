@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header boshlandi */
+
+.header_top {
+  display: flex;
+  /* 1rem = 16px */
+  padding: 1rem 6rem;
+  justify-content: space-between;
+  border: 1px solid #aaa;
+  align-items: center;
+}
+
+.header_contact_wrap {
+  display: flex;
+}
+
+.header_contact {
+  margin-left: 2rem;
+}
+
+.header_contact p:last-child {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* Header tugadi */
+
+/* Nav boshlandi */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 10rem;
+  background-color: rgb(0, 145, 255);
+  font-size: 1rem;
+  font-weight: 550;
+  list-style-type: none;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav a:hover {
+  background-color: #075ccb;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
+  margin-right: 2rem;
+  border-right: 1px solid #075ccb;
+  text-align: center;
+}
+/* Nav tugadi */
+
+/*Main boshlandi*/
+.hero_jpg img {
+  height: 34rem;
+  width: 95rem;
+}
+
+.hero_text {
+  margin: 3.5rem 3rem 3rem;
+  font-weight: 550;
+  color: rgb(76, 75, 75);
+}
+.hero_text p:first-child {
+  margin: 1rem;
+  font-size: 1.8rem;
+}
+.hero_text p:last-child {
+  margin-left: 1rem;
+  font-size: 1.35rem;
+}
+.jpg img {
+  width: 95rem;
+}
+main h2 {
+  margin: 2rem 4rem 1.5rem;
+  color: rgb(76, 75, 75);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  border-right: 1px solid black;
+}
+.container img {
+  height: 11rem;
+}
+.container div p:first-child {
+  color: #075ccb;
+  font-size: 0.9rem;
+  font-weight: 550;
+}
+.container div p:last-child {
+  color: rgb(76, 75, 75);
+  font-size: 0.9rem;
+  padding: 1rem;
+}
+.container div {
+  border-right: 1px solid #aaa;
+  padding: 1rem;
+}
+.container div:hover {
+  border: 1px solid #aaa;
+  color: rgb(219, 226, 226);
+}
+/*Main tugadi*/

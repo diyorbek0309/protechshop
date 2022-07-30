@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header boshlandi */
+
+.header_top {
+    display: flex;
+    /* 1rem = 16px */
+    padding: 1rem 6rem;
+    justify-content: space-between;
+    border: 1px solid #aaa;
+    align-items: center;
+}
+
+.header_contact_wrap {
+    display: flex;
+}
+
+.header_contact {
+    margin-left: 2rem;
+}
+
+.header_contact p:last-child {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+/* Header tugadi */

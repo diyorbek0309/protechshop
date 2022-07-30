@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nikel_svet {
+    color: #334141;
+}
+/* Header boshlandi */
+
+.header_top {
+    display: flex;
+    /* 1rem = 16px */
+    padding: 0.5rem 6rem;
+    justify-content: space-between;
+    border-bottom: 1px solid #aaa;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.header_contact_wrap {
+    display: flex;
+}
+
+.header_contact {
+    margin-left: 2rem;
+}
+
+.header_contact p:last-child {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.header_bottom {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 2rem 6rem;
+    align-items: center;
+
+}
+
+.input_save {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.logo_save img {
+    width: 12.5rem;
+}
+
+.input_save input {
+    font-size: 1.3rem;
+    width: 80%;
+    height: 2.5rem;
+    padding: 0 2rem;
+    border: 0.15rem #0787ea solid;
+    border-bottom-left-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    outline: none;
+}
+
+.input_save button {
+    height: 2.75rem;
+    width: 4rem;
+    color: #fff;
+    background-color: #0787ea;
+    border: 0.15rem #0787ea solid;
+    font-size: 1.2rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.korzina_save {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12.5rem;
+    font-size: 1.4rem;
+}
+
+.korzina_save a{
+    display: inline-block;
+    color: #334141;
+    position: relative;
+}
+
+.korzina_save a:hover {
+    color: black;
+}
+
+.korzina_save a:last-child::before{
+    content: '0';
+    position: absolute;
+    top: 1rem;
+    left: 0.4rem;
+    font-size: 0.8rem;
+    color: #fff;
+    text-align: center;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #0787ea;
+}
+
+/* Header tugadi */
+
+
+/* Nav boshlandi */
+
+.nav_save {
+    background-color: #0787ea;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_save ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav_save ul li a{
+    display: flex;
+    align-items: center;
+    padding: 0 0.8rem;
+    color: #fff;
+    height: 3rem;
+    text-decoration: none;
+    border-left: 1px #067ad4 solid;
+}
+
+.nav_save ul li:first-child a{
+    border-left: transparent;
+}
+
+.nav_save ul li a:hover{
+    background-color:  #067ad4;
+}
+
+/* Nav tugadi */
+
+
+/* Main boshlandi */
+
+main img {
+    width: 100%;
+}
+
+main h2 {
+    margin: 3rem 6rem;
+}
+
+.contener{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+
+.contener .laptop_save {
+    padding: 1rem;
+    width: 13.8rem;
+    font-size: 0.8rem;
+}
+
+.contener .laptop_save:hover {
+    box-shadow: 0 0 0.4rem #334141;
+}
+
+.laptop_save .buy a{
+    display: block;
+    position: relative;
+    color: #fff;
+    left: 11rem;
+    top:-2rem;
+    font-size: 1rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    background-color: #aaa;
+}
+
+.buy a:last-child i{
+    display: flex;
+    justify-content: center;
+    transform: translateY(0.5rem);
+}
+.laptop_teyi a{
+    display: block;
+}
+
+.laptop_teyi {
+    display: none;
+    justify-content: space-around;
+}
+
+.laptop_teyi a:first-child{
+    color: black;
+}
+
+.laptop_teyi a:last-child{
+    color: #0787ea;
+}
+
+.gok_svet {
+    color: #067ad4;
+}
+
+.qizil_svet {
+    color: red;
+}
+
+
+.chegirma {
+    display: inline-block;
+    color: #334141;
+    text-decoration: line-through;
+    font-size: 0.7rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+b {
+    opacity: 0.8;
+}
+
+
+
+/* Main tugadi */
+
+
+/* Footer bowlandi */
+
+footer {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+}
+
+footer .con1 .chap1 img {
+    width: 30%;
+}
+.chap2 {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0.5rem;
+}
+
+.chap2 .xd1 {
+    font-size: 5rem;
+    padding-right: 1rem;
+}
+
+.xd2 a {
+    display: inline-block;
+    color: #067ad4;
+    margin-top: 0.3rem;
+    font-size: 2rem;
+}
+
+.xd2 a:hover {
+    color: #065fa3;
+}
+
+.fa-telegram:hover {
+    color: #067ad4;
+}
+
+.fa-facebook:hover {
+    color: #4267B2;
+}
+
+.fa-instagram:hover {
+    color: #fbad50;
+}
+
+.fa-youtube:hover {
+    color: red;
+}
+
+.chap3 p{
+    margin-top: 0.3rem;
+}
+
+.chap4 {
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+}
+
+.chap4 a{
+    display: inline-block;
+    color: #7c7c7c;
+    margin-right: 1rem;
+}
+
+.con2 {
+    display: flex;
+    width: 55%;
+    justify-content: space-around; 
+}
+
+.ong {
+    width: 33%;
+    
+}
+.ong p {
+    margin-top: 0.7rem;
+}
+.ong p a{
+    color: #334141;
+}
+
+/* Footer tugadi */
+
+/* Media queries boshlandi */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header_top, .header_bottom {
+        padding: 0.5rem 3rem;
+    }
+    .input_save input,.input_save button {
+        display: none; 
+    }
+    .nav_save ul li a{
+        padding: 0 0.5rem;
+    }
+    footer {
+        padding: 2rem 3rem;
+    }
+    .chap2 .xd1 {
+        font-size: 3rem;
+    }
+    .xd2 a {
+        font-size: 1.5rem;
+    }
+    .con2 {
+        width: 63%;
+    }
+    .ong:first-child {
+        width: 28%;
+    }
+    .ong:nth-child(2) {
+        width: 39%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header_top {
+        display: none;
+    }
+    .input_save input,.input_save button {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 766px) {
+    
+}
+
+/* Media queries tugadi */
