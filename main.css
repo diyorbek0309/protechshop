@@ -4,6 +4,32 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    display: block;
+    position: relative;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    transition: all 500ms linear;
+}
+body.active {
+    left: 196px;
+    transition: all 500ms linear;
+}
+
+.tuman {
+    position: absolute;
+    z-index: -22;
+    background-color: black;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+}
+
+.tuman.active {
+    z-index: 1;
+    
+}
 .nikel_svet {
     color: #334141;
 }
@@ -33,13 +59,62 @@
     font-size: 0.9rem;
 }
 
-.header_bottom {
-    display: flex;
+header {
     background-color: #fff;
+}
+.header_bottom {
+
+    display: flex;
+
     justify-content: space-between;
     padding: 2rem 6rem;
     align-items: center;
+}
 
+.bars {
+    left: 216px;
+    cursor: pointer;
+    position: absolute;
+    top:1.5rem;
+}
+
+.nav_bars {
+    position: absolute;
+    display: none;
+    background-color: #0787ea;
+    height: 100vh;
+    width: 14rem;
+    z-index: 2;
+    left: -196px;
+    top: 0;
+    transition: all 500ms linear;
+}
+
+.nav_bars .fa-solid {
+    color: #334141;
+}
+
+
+.nav_bars ul {
+    list-style: none;
+
+}
+
+.nav_bars ul li:last-child a{
+    border-bottom: #065fa3;
+}
+.nav_bars ul li a{
+    display: block;
+    font-size: 1.2rem;
+    padding: 0.7rem 1rem;
+    color: #fff;
+    border-bottom: 1px solid #798181;
+}
+.nav_bars ul li:hover {
+    background-color: #065fa3;
+}
+.fa-bars {
+    font-size: 1.3rem;
 }
 
 .input_save {
@@ -120,6 +195,7 @@
     align-items: center;
 }
 
+
 .nav_save ul{
     display: flex;
     list-style: none;
@@ -151,7 +227,9 @@
 main img {
     width: 100%;
 }
-
+main {
+    background-color: #fff;
+}
 main h2 {
     margin: 3rem 6rem;
 }
@@ -355,17 +433,45 @@ footer .con1 .chap1 img {
     }
 }
 
-@media screen and (max-width: 767px) {
+
+
+@media screen and (min-width: 360px) and (max-width: 766px) {
     .header_top {
         display: none;
     }
     .input_save input,.input_save button {
         display: none;
     }
-}
 
-@media screen and (min-width: 360px) and (max-width: 766px) {
-    
+    * {
+        font-size: 14px;
+    }
+
+    .header_bottom {
+        padding: 1rem 2rem;
+    }
+
+    .korzina_save {
+        justify-content: center;
+        width: 17rem;
+    }
+
+    .nav_bars {
+        display: block;
+    }
+
+    .korzina_save a {
+        margin: 0.8rem;
+    }
+
+    .logo_save img {
+        width: 7rem;
+        transform: translateX(30px);
+    }
+
+    .nav_save {
+        display: none;
+    }
 }
 
 /* Media queries tugadi */
