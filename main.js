@@ -45,10 +45,26 @@ function toggleDropdown() {
   document
     .getElementsByClassName("fa-chevron-down")[0]
     .classList.toggle("fa-chevron-up");
-
+    
   if (saver) {
     dropdowns[0].style.display = "none";
-    saver = false;
+    saver = false;  
+  } else {
+    saver = true;
+    dropdowns[0].style.display = "block";
+  }
+}
+
+function toggleDropdown() {
+  let dropdowns = document.getElementsByClassName("hidden_dropdown");
+  let dropdown = document.getElementsByClassName("dropdown");
+  document
+    .getElementsByClassName("fa-chevron-down")[0]
+    .classList.toggle("fa-chevron-up");
+    
+  if (saver) {
+    dropdowns[0].style.display = "none";
+    saver = false;  
   } else {
     saver = true;
     dropdowns[0].style.display = "block";
