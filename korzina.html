@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bosh sahifa</title>
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="./korzina.css">
     <script
       src="https://kit.fontawesome.com/628ca10661.js"
       crossorigin="anonymous"
@@ -39,23 +40,7 @@
         <div class="header_korzina">
           <ul>
             <li><a href="index.html">Asosiy menyu</a></li>
-            <li class="korzina_brendlar">
-              <a href="#">Brendlar</a>
-              <!--<ul>
-                <li>Asus</li>
-                <li>MSI</li>
-                <li>Lenovo</li>
-                <li>HP</li>
-                <li>Dell</li>
-                <li>Razer</li>
-                <li>Samsung</li>
-                <li>Microsoft Surface</li>
-                <li>Apple</li>
-                <li>Acer</li>
-                <li>LG</li>
-                <li>HyperX</li>
-              </ul>-->
-            </li>
+            <li><a href="#">Brendlar</a></li>
             <li><a href="#">Kredit Shartlari</a></li>
             <li><a href="#">Yangiliklar</a></li>
             <li><a href="#">Bizning kontaktlarimiz</a></li>
@@ -80,17 +65,20 @@
 
     <nav>
       <div class="nav_korzina">
-        <a href="#">Barcha toifalar</a>
-
+        
+        <div class="nav_dropdown">
+          <a href="#">Barcha toifalar</a>
+        </div>
         <div class="input_save">
           <input type="text" placeholder="Tovar qidirish" />
           <button>
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </div>
+
         <div class="korzina_save nikel_svet">
           <a href="#"><i class="fa-solid fa-arrows-rotate"></i></a>
-          <a href="корзина.html"><i class="fa-brands fa-shopify"> 0 сум</i></a>
+          <a href="#"><i class="fa-brands fa-shopify"> 0 сум</i></a>
         </div>
       </div>
     </nav>
@@ -103,33 +91,87 @@
         <div class="main_korzina">
         <div class="main_korzina_top">
           <a href="index.html">Asosiy menyu</a>
-          <p>></p>
+          <i class="fa-solid fa-angle-right"></i>
           <p>Savat</p>
         </div>
-        <div class="korzina_title"><h1>Savat</h1></div>
+        <div class="korzina_title"><p>Savat</p></div>
         <div class="korzina_mahsulotlar">
-          <ul>
-            <li>Mahsulotlar</li>
-            <li>Narxi</li>
-            <li>Miqdori</li>
-            <li>Oraliq jami</li>
-          </ul>
-        </div>
-        <hr />
-        <div class="mahsulotlar1">
-          <a href="#"><button>x</button></a>
-          <img src="./assets/1legion-5-300x300.jpg" alt="Bu yerda rasm" />
-          <a href="#"><p>Lenovo Legion 5 15 (i7-11800H/RTX3060)</p></a>
-          <p>14 208 000 сум</p>
-          <input type="number" name="number" id="number" />
-          <p>14 208 000 сум</p>
-        </div>
-        <hr />
-        <div class="input_korzina">
-          <input type="text" placeholder="Kupon kodi" />
-          <button>
+          <table class="shop_table">
+          <thead>
+            <tr>
+              <th class="product_remove"></th>
+              <th class="product_thumbnail"></th>
+              <th class="product_name">Mahsulotlar</th>
+              <th class="product_price">Narxi</th>
+              <th class="product_quantity">Miqdori</th>
+              <th class="product_subtotal">Oraliq jami</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="product_remove">
+                <i class="fa-solid fa-xmark"></i>
+              </td>
+              <td class="product_thumbnail">
+                <img src="./assets/1legion-5-300x300.jpg" alt="Bu yerda rasm" />
+              </td>
+              <td class="product_name">
+                <a href="#"><p>Lenovo Legion 5 15 (i7-11800H/RTX3060)</p></a>
+              </td>
+              <td class="product_price">
+                <span>
+                  14 208 000
+                  <span>"сум"</span>
+                </span>
+              </td>
+              <td class="product_quantity">
+                <input type="number" value="1" name="quantity" id="number" />
+              </td>
+              <td class="product_subtotal">
+                <span>
+                  14 208 000
+                  <span>"сум"</span>
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- <div class="input_korzina">
+            <input type="text" placeholder="Kupon kodi" />
+          <button class="button0">
             <a href="#">Kuponni qo'llash</a>
           </button>
+          <div class="input_korzina_button">
+            <button class="button1">Savatni yangilash</button>
+          <button class="button2">Tekshirib ko'rish</button>
+          </div>
+        </div> -->
+        <div class="korzina_garovlar">
+          <div class="jami_korzina">
+            <h2>Buyurtma Miqdori</h2>
+            <table class="shop_table2">
+              <tr>
+                <th>Oraliq jami</th>
+                <td> 
+                  <span>
+                  14 208 000
+                  <span>"сум"</span>
+                </span>
+              </td>
+              </tr>
+              <tr>
+                <th>Jami</th>
+                <td>
+                  <strong>
+                    <span>
+                      14 208 000
+                      <span>"сум"</span>
+                    </span>
+                  </strong>
+                </td>
+              </tr>
+            </table>
+          </div>
         </div>
     </main>
 

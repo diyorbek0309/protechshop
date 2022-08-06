@@ -1,0 +1,249 @@
+/*Header boshlandi*/
+
+.header_korzina {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_korzina ul {
+  display: flex;
+  list-style: none;
+}
+.header_korzina ul li a {
+  display: flex;
+  align-items: center;
+  padding: 0 0.8rem;
+  color: black;
+  height: 3rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.korzina_contact {
+  color: #067ad4;
+  display: flex;
+  align-items: center;
+}
+.korzina_contact .xd1 {
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+.korzina_contact .xd2 a {
+  display: inline-block;
+  color: black;
+  margin-top: 0.3rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/*Header tugadi*/
+
+/*Navbar boshlandi*/
+
+.nav_korzina {
+  background-color: #0787ea;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 6rem;
+}
+.nav_korzina a {
+  color: #fff;
+  font-weight: bold;
+}
+.nav_korzina button {
+  background-color: #334141;
+}
+.nav_korzina button:hover {
+  background-color: black;
+}
+
+/*Navbar tugadi*/
+
+/*Main boshlandi*/
+
+.main_korzina {
+  padding: 1.5rem 10rem;
+}
+.main_korzina_top {
+  display: flex;
+  padding: 0.6rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.main_korzina_top a {
+  color: black;
+}
+.main_korzina_top i {
+  padding: 0 1rem;
+}
+.korzina_title {
+  font-size: 2.5rem;
+  color: #334141;
+  font-weight: 550;
+}
+.korzina_buttom {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  background-color: #0787ea;
+  font-size: 3rem;
+  margin: 6rem 7rem 2rem 7rem;
+  padding: 3rem 6rem;
+}
+.korzina_button {
+  display: flex;
+  justify-content: center;
+}
+.korzina_button button {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  font-weight: bold;
+}
+.korzina_button button:hover {
+  color: #fff;
+  background-color: black;
+}
+.korzina_title {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+
+.korzina_mahsulotlar table {
+  box-sizing: border-box;
+  border-collapse: collapse;
+  width: 100%;
+}
+.korzina_mahsulotlar table,
+th,
+td {
+  border-bottom: 1px solid #aaa;
+}
+.korzina_mahsulotlar table th {
+  height: 3rem;
+}
+.korzina_mahsulotlar table td {
+  height: 8rem;
+}
+.korzina_mahsulotlar thead {
+  display: table-header-group;
+  vertical-align: middle;
+  color: rgb(131, 130, 130);
+}
+.korzina_mahsulotlar tbody a {
+  color: #334141;
+}
+.korzina_mahsulotlartbody i {
+  color: #aaa;
+  cursor: pointer;
+}
+.korzina_mahsulotlar tbody i:hover {
+  color: red;
+}
+.korzina_mahsulotlar table img {
+  width: 4.5rem;
+  border: 1px solid #aaa;
+  margin: 1rem 0 0 2rem;
+  cursor: pointer;
+}
+.product_quantity input {
+  padding: 1rem;
+  border-radius: 1rem;
+  border-color: #aaa;
+  width: 3rem;
+}
+.korzina_mahsulotlar table td,
+th {
+  vertical-align: middle;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  font-weight: bold;
+}
+
+.input_korzina {
+  display: flex;
+  align-items: center;
+  padding: 5rem 0;
+}
+.input_korzina input {
+  font-size: 1rem;
+  width: 20%;
+  height: 2.5rem;
+  padding: 0 2rem;
+  border: 0.1rem #eee solid;
+  border-bottom-left-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  outline: none;
+}
+.button0 {
+  height: 2.75rem;
+  width: 10rem;
+  color: #fff;
+  background-color: #334141;
+  border: 0.15rem #aaa;
+  font-size: 1rem;
+  border-bottom-right-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+.input_korzina button a {
+  color: #fff;
+}
+.input_korzina_button {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 60%;
+}
+.input_korzina_button button {
+  padding: 1rem;
+  border-radius: 1.5rem;
+  border: none;
+  font-weight: bold;
+  width: 11rem;
+}
+.input_korzina_button .button1 {
+  color: #aaa;
+  font-weight: 500;
+  margin-right: 0.6rem;
+}
+.input_korzina_button .button1:hover {
+  color: #fff;
+}
+.input_korzina_button .button2 {
+  color: #fff;
+  background-color: #0787ea;
+  font-weight: 800;
+}
+.input_korzina_button .button2:hover {
+  background-color: black;
+}
+.korzina_garovlar {
+  color: #334141;
+}
+.korzina_garovlar h2 {
+  margin-bottom: 1rem;
+  margin-left: 0;
+}
+.korzina_garovlar table {
+  box-sizing: border-box;
+  border-collapse: collapse;
+  width: 40%;
+  border-bottom: none;
+}
+.korzina_garovlar table td {
+  border-top: 1px solid #eee;
+  border-bottom: none;
+  height: 4rem;
+  text-align: right;
+}
+.shop_table2 th {
+  text-align: left;
+  border-top: 1px solid #eee;
+  border-bottom: none;
+}
+
+/*Main tugadi*/

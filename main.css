@@ -106,42 +106,6 @@
   background-color: #0787ea;
 }
 
-.header_korzina {
-  height: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header_korzina ul {
-  display: flex;
-  list-style: none;
-}
-.header_korzina ul li a {
-  display: flex;
-  align-items: center;
-  padding: 0 0.8rem;
-  color: black;
-  height: 3rem;
-  text-decoration: none;
-  font-weight: bold;
-}
-.korzina_contact {
-  color: #067ad4;
-  display: flex;
-  align-items: center;
-}
-.korzina_contact .xd1 {
-  font-size: 2rem;
-  padding-right: 1rem;
-}
-.korzina_contact .xd2 a {
-  display: inline-block;
-  color: black;
-  margin-top: 0.3rem;
-  font-size: 1rem;
-  font-weight: bold;
-}
-
 /* Header tugadi */
 
 /* Nav boshlandi */
@@ -175,24 +139,6 @@
 
 .nav_save ul li a:hover {
   background-color: #067ad4;
-}
-.nav_korzina {
-  background-color: #0787ea;
-  height: 3rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.2rem 6rem;
-}
-.nav_korzina a {
-  color: #fff;
-  font-weight: bold;
-}
-.nav_korzina button {
-  background-color: #334141;
-}
-.nav_korzina button:hover {
-  background-color: black;
 }
 
 /* Nav tugadi */
@@ -281,103 +227,7 @@ a {
 b {
   opacity: 0.8;
 }
-.main_korzina {
-  padding: 1.5rem 6rem;
-}
-.main_korzina_top {
-  display: flex;
-}
-.korzina_buttom {
-  display: flex;
-  justify-content: center;
-  color: #fff;
-  background-color: #0787ea;
-  font-size: 3rem;
-  margin: 6rem 7rem 2rem 7rem;
-  padding: 3rem 6rem;
-}
-.korzina_button {
-  display: flex;
-  justify-content: center;
-}
-.korzina_button button {
-  padding: 1rem;
-  border-radius: 1rem;
-  border: none;
-  font-weight: bold;
-}
-.korzina_button button:hover {
-  color: #fff;
-  background-color: black;
-}
-.korzina_title {
-  display: flex;
-  justify-content: center;
-  padding: 1.5rem 0;
-}
-.korzina_mahsulotlar {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.8rem 7rem;
-}
-.korzina_mahsulotlar ul {
-  display: flex;
-  list-style: none;
-}
-.korzina_mahsulotlar ul li {
-  display: flex;
-  align-items: center;
-  padding: 0 0.8rem;
-  height: 3rem;
-}
-.mahsulotlar1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1rem 0.2rem;
-}
-.mahsulotlar1 img {
-  width: 6rem;
-  padding: 1rem;
-}
-.mahsulotlar1 p {
-  color: black;
-}
-.mahsulotlar1 input {
-  padding: 1rem;
-  border-radius: 1rem;
-  width: 3rem;
-}
-.input_korzina {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50%;
-}
 
-.input_korzina input {
-  font-size: 1.3rem;
-  width: 35%;
-  height: 2.5rem;
-  padding: 0 2rem;
-  border: 0.1rem #aaa solid;
-  border-bottom-left-radius: 1.5rem;
-  border-top-left-radius: 1.5rem;
-  outline: none;
-}
-.input_korzina button {
-  height: 2.75rem;
-  width: 10rem;
-  color: #fff;
-  background-color: #334141;
-  border: 0.15rem #aaa;
-  font-size: 1.2rem;
-  border-bottom-right-radius: 1.5rem;
-  border-top-right-radius: 1.5rem;
-}
-.input_korzina button a{
-  color: #fff;
-}
 /* Main tugadi */
 
 /* Footer bowlandi */
